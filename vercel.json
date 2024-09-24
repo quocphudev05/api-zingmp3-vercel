@@ -5,7 +5,7 @@
             "src": "./index.js",
             "use": "@vercel/node",
             "config": {
-                "maxDuration": 30 // Set to a higher timeout (in seconds)
+                "maxDuration": 30
             }
         }
     ],
