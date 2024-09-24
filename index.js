@@ -1,9 +1,9 @@
-console.log("Function started");
-// Your logic here
-console.log("Before async call");
-const result = await someAsyncFunction();
-console.log("After async call");
-res.status(200).json(result);
+const path = require('path')
+const express = require("express")
+require('dotenv').config()
+const app = express()
+const cors = require("cors")
+const port = process.env.PORT || 3000
 
 // Page Home
 app.get("/", (req, res) => {
